@@ -1,0 +1,19 @@
+.button-overlay {
+    position: absolute;
+}
+
+.custom-button {
+    background-image: url('../../../assets/Mandoble-real-.png');
+    background-repeat: no-repeat;
+    background-size: 80px 150px;
+    background-color: transparent;
+    border: none;
+    width: 150px;
+    height: 150px;
+    background-position: center;
+    filter: resize(150px, 150px);
+    transform: rotate(90deg);
+}
+.custom-button:hover {
+    outline-color: purple;
+}
